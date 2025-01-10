@@ -139,3 +139,67 @@ main section {
   justify-content: space-between;
 }
 /* PILLAR OF BANGLADESH SECTION STYLE END */
+
+/* VISION OF BANGLADESH STYLE */
+.vision .card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.vision .card-container .card {
+  flex-basis: 32%;
+  height: 250px;
+  padding: 24px;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.vision .card:hover{
+    box-shadow: 2px 3px 40px rgba(0,0,0,0.3);
+}
+.vision .card-container img {
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+}
+.vision .card-container .card-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision .card-container .card-2 {
+  background-color: #c6e4d6;
+}
+.vision .card-container .card-3 {
+  background-color: #f7ebcf;
+}
+.vision .card-container .btn {
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 12px;
+  font-weight: 600;
+}
+.vision .btn-1 {
+  background-color: #5490f5;
+  margin-top: 25px;
+}
+.vision .btn-1:hover {
+  background-color: #3574e2;
+}
+.vision .btn-2 {
+  background-color: #09a15c;
+  margin-top: 44px;
+}
+.vision .btn-2:hover {
+  background-color: #087544;
+}
+.vision .btn-3 {
+  background-color: #ffc239;
+  margin-top: 26px;
+}
+.vision .btn-3:hover {
+  background-color: #eba605;
+}
+/* VISION OF BANGLADESH STYLE END */
