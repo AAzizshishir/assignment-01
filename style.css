@@ -16,6 +16,24 @@ body {
 }
 
 /* SHARED STYLE */
+.section-title {
+  color: #0e0e0e;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+.description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
 
 /********* HEADER AREA STYLE *********/
 .header {
@@ -84,19 +102,40 @@ body {
   cursor: pointer;
   transition: all 0.4s;
 }
-.hero-section .btn:hover{
-    background-color: #033f34;
+.hero-section .btn:hover {
+  background-color: #033f34;
 }
-.hero-section img{
-    width: 360px;
+.hero-section img {
+  width: 360px;
 }
-/* HEADER AREA STYLE END */
+/******* HEADER AREA STYLE END *******/
 
 /* MAIN AREA ARYLE */
-main{
-    width: 976px;
-    margin: 0 auto;
+main {
+  width: 976px;
+  margin: 0 auto;
 }
-main section{
-    margin-top: 60px;
+main section {
+  margin-top: 60px;
 }
+
+/* PILLAR OF BANGLADESH SECTION STYLE */
+.pillar .card img {
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+}
+.pillar .card div {
+  width: 230px;
+  height: 185px;
+  padding: 18px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 12px;
+  background: #ffffff;
+}
+.pillar .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* PILLAR OF BANGLADESH SECTION STYLE END */
