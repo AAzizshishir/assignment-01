@@ -154,8 +154,8 @@ main section {
   border-radius: 12px;
   transition: all 0.3s;
 }
-.vision .card:hover{
-    box-shadow: 2px 3px 40px rgba(0,0,0,0.3);
+.vision .card:hover {
+  box-shadow: 2px 3px 40px rgba(0, 0, 0, 0.3);
 }
 .vision .card-container img {
   width: 45px;
@@ -201,5 +201,33 @@ main section {
 }
 .vision .btn-3:hover {
   background-color: #eba605;
+}
+.vision .chief-adviser-box {
+  background: #ffffff;
+  background-image: url(./assets/quote-bg.png);
+  background-size: 50px 60px;
+  background-position: 20px 15px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 36px 18px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.vision .chief-adviser-box blockquote,
+p {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.vision .chief-adviser-box h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 14px;
+}
+.vision .chief-adviser-box p {
+  opacity: 0.7;
 }
 /* VISION OF BANGLADESH STYLE END */
