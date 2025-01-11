@@ -268,7 +268,7 @@ p {
 }
 .opinion .question-container .question p {
   color: rgb(14, 14, 14);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
 }
 .opinion .question-container .question option {
@@ -295,6 +295,7 @@ p {
   width: 310px;
   height: 232px;
   border-radius: 18px;
+  object-fit: cover;
 }
 .news .column .content h3 {
   color: rgba(14, 14, 14, 0.8);
@@ -302,9 +303,22 @@ p {
   font-weight: 700;
   margin-bottom: 15px;
 }
+.news .row .content{
+  position: relative;
+}
 .news .column .content img {
   width: 100px;
   height: 30px;
+}
+.news .column .content .dailystar{
+  width: 30px;
+}
+.news .column .content .newsP-name{
+  font-size: 18px;
+  font-weight: 700;
+  color: #023e8a;
+  position: absolute;
+  top: 77px;
 }
 .news .column span {
   color: rgba(14, 14, 14, 0.7);
