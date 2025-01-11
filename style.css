@@ -393,11 +393,38 @@ p {
   margin: 14px 0;
   width: 450px;
 }
-.newsletter .btn{
+.newsletter .btn {
   background-color: rgb(0, 106, 80);
   border-radius: 0px 5px 5px 0px;
   padding: 14px 25px;
   margin-left: -4px;
   border: none;
+  transition: all 0.3s;
+}
+.newsletter .btn:hover {
+  background: #024937;
 }
 /* NEWSLETTER SECTION STYLE END */
+/* MAIN SECTION STYLE END */
+
+/* FOOTER SECTION */
+footer {
+  margin-top: 60px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 120px;
+}
+footer .footer-title {
+  color: rgb(14, 14, 14);
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  margin: 0 14px;
+  font-size: 16px;
+}
+/* FOOTER SECTION STYLE END */
