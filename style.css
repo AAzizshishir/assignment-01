@@ -202,7 +202,7 @@ main section {
 .vision .btn-3:hover {
   background-color: #eba605;
 }
-.vision .chief-adviser-box {
+.vision .chief-adviser-speech {
   background: #ffffff;
   background-image: url(./assets/quote-bg.png);
   background-size: 50px 60px;
@@ -214,20 +214,65 @@ main section {
   border-radius: 12px;
   margin-top: 20px;
 }
-.vision .chief-adviser-box blockquote,
+.vision .chief-adviser-speech blockquote,
 p {
   color: rgba(14, 14, 14, 0.8);
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
 }
-.vision .chief-adviser-box h4 {
+.vision .chief-adviser-speech h4 {
   color: rgba(14, 14, 14, 0.8);
   font-size: 15px;
   font-weight: 600;
   margin-top: 14px;
 }
-.vision .chief-adviser-box p {
+.vision .chief-adviser-speech p {
   opacity: 0.7;
 }
 /* VISION OF BANGLADESH STYLE END */
+
+/* OPINION */
+.opinion .opinion-container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+}
+.opinion .question-container .heading {
+  padding: 18px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.opinion .question-container .heading h4 {
+  color: rgb(14, 14, 14);
+  font-size: 15px;
+  font-weight: 600;
+}
+.opinion .question-container .question {
+  padding: 18px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.opinion .question-container .question select {
+  padding: 6px 10px;
+  border: 1px solid rgb(14, 14, 14);
+  outline: none;
+  border-radius: 3px;
+  background: rgb(198, 228, 214);
+}
+.opinion .question-container .question p {
+  color: rgb(14, 14, 14);
+  font-size: 12px;
+  font-weight: 600;
+}
+.opinion .question-container .question option {
+  color: rgb(14, 14, 14);
+  font-size: 12px;
+  font-weight: 500;
+}
+/* OPINION SECTION END */
