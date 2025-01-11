@@ -36,7 +36,7 @@ body {
 }
 .btn {
   color: #ffffff;
-  padding: 8px 12px;
+  padding: 8px 18px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -310,10 +310,66 @@ p {
   font-size: 12px;
   font-weight: 400;
 }
-.news .column .date-time{
+.news .column .date-time {
   margin: 8px 0;
 }
-.news .column .btn{
-  background-color: rgb(0, 106, 80);
+.news .column .btn {
+  background-color: #006a50;
   margin-top: 22px;
+  transition: all 0.3s;
+}
+.news .column .btn:hover {
+  background: #024937;
+}
+/* NEWS SECTION STYLE END */
+
+/*** DONATION SECTION STYLE ***/
+.donation {
+  text-align: center;
+  padding: 0 20px;
+}
+.donation .amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  margin: 20px 0;
+}
+.donation .amount div {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+  padding:30px 40px;
+  transition: all 0.3s;
+}
+.donation .amount div:hover {
+  background-color: rgb(198, 228, 214);
+}
+.donation .amount span {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 30px;
+  font-weight: 700;
+}
+.donation input {
+  width: 80%;
+  padding: 15px 30px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  outline: none;
+}
+.donation input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.donation .btn {
+  background: #006a50;
+  padding: 10px 35px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+.donation .btn:hover {
+  background: #024937;
 }
